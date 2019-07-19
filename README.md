@@ -10,7 +10,6 @@
 #### For building API
 
 [Express](https://expressjs.com/)
-The Server side application is comprised of the following technologies:
 
 ### Getting Started - Code & Environment - Setup
 
