@@ -1,7 +1,10 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 var routes = require("./routes/routes.js");
+var path = require('path');
+var serveStatic = require('serve-static');
 var app = express();
+app.use(serveStatic(__dirname + "/docs"));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
